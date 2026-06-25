@@ -36,7 +36,7 @@
 </head>
 <body class="text-slate-100 min-h-screen flex flex-col antialiased selection:bg-sky-500/30 selection:text-sky-200">
 
-    <!-- 1. SPLASH SCREEN (Fades out when user clicks '탐험 시작하기') -->
+    <!-- 1. SPLASH SCREEN (원본 빙산 이미지 SVG 완벽 유지) -->
     <div id="splash-screen" class="fixed inset-0 bg-gradient-to-b from-[#020617] via-[#0b192e] to-[#02284d] z-50 flex flex-col justify-between items-center p-8 transition-all duration-1000">
         <div class="text-center mt-16">
             <p class="text-sky-400 text-xs tracking-[0.25em] font-light mb-3 uppercase">My Emotional Iceberg Project</p>
@@ -124,12 +124,12 @@
         </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6">
-            <!-- M Link -->
+            <!-- M Link (A, P처럼 활성화 연동) -->
             <a href="https://kkamsoo1119-dot.github.io/wordtest/" target="_blank" class="flex flex-col items-center justify-center p-8 rounded-3xl bg-slate-900/60 border border-slate-800 hover:border-rose-500/50 hover:bg-rose-500/10 hover:shadow-[0_0_30px_rgba(244,63,94,0.15)] hover:-translate-y-2 transition-all duration-300 group">
                 <span class="text-5xl md:text-6xl font-black text-rose-300 mb-4 group-hover:scale-110 transition-transform drop-shadow-[0_0_15px_rgba(244,63,94,0.5)]">M</span>
                 <h3 class="text-lg md:text-xl font-bold text-white mb-2">Mastering Vocabulary</h3>
                 <p class="text-xs text-slate-400 text-center leading-relaxed">내 마음의 상태를 정확하게 명명하기 위한<br>감정어 학습 및 내면화</p>
-                <span class="mt-5 text-[10px] bg-slate-800/80 text-slate-400 border border-slate-700 px-3.5 py-1.5 rounded-full"><i class="fa-solid fa-link mr-1"></i>M 주소 준비 중 (입력 대기)</span>
+                <span class="mt-5 text-[10px] bg-rose-500/20 text-rose-300 border border-rose-500/30 px-3.5 py-1.5 rounded-full"><i class="fa-solid fa-arrow-up-right-from-square mr-1"></i>M 어휘 마스터 이동</span>
             </a>
 
             <!-- A Link -->
@@ -148,12 +148,12 @@
                 <span class="mt-5 text-[10px] bg-purple-500/20 text-purple-300 border border-purple-500/30 px-3.5 py-1.5 rounded-full"><i class="fa-solid fa-arrow-up-right-from-square mr-1"></i>P 처방 보관함 이동</span>
             </a>
 
-            <!-- S Link -->
+            <!-- S Link (A, P처럼 활성화 연동) -->
             <a href="https://padlet.com/automotive260/padlet-ncld17n0tqw4ueam/" target="_blank" class="flex flex-col items-center justify-center p-8 rounded-3xl bg-slate-900/60 border border-slate-800 hover:border-emerald-500/50 hover:bg-emerald-500/10 hover:shadow-[0_0_30px_rgba(16,185,129,0.15)] hover:-translate-y-2 transition-all duration-300 group">
                 <span class="text-5xl md:text-6xl font-black text-emerald-300 mb-4 group-hover:scale-110 transition-transform drop-shadow-[0_0_15px_rgba(16,185,129,0.5)]">S</span>
                 <h3 class="text-lg md:text-xl font-bold text-white mb-2">Sharing Communication</h3>
                 <p class="text-xs text-slate-400 text-center leading-relaxed">자신에 대한 객관적 인지를 바탕으로<br>타인과의 대화 및 대인관계 능력 개발</p>
-                <span class="mt-5 text-[10px] bg-slate-800/80 text-slate-400 border border-slate-700 px-3.5 py-1.5 rounded-full"><i class="fa-solid fa-link mr-1"></i>S 주소 준비 중 (입력 대기)</span>
+                <span class="mt-5 text-[10px] bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 px-3.5 py-1.5 rounded-full"><i class="fa-solid fa-arrow-up-right-from-square mr-1"></i>S 패들렛 소통방 이동</span>
             </a>
         </div>
     </main>
